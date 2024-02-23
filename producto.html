@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>StoreFront</title>
+</head>
+<body>
+    <header class="conatin-logo">
+        <a href="index.html">
+            <img class="header__logo" src="./img/ebay.png" alt="Imagen de logo">
+        </a>
+    </header>
+    <nav class="nav-bar">
+        <a href="./index.html" class="nav__navegantes">Tienda</a>
+        <a href="./nosotros.htm" class="nav__navegantes">Nosotros</a>
+    </nav>
+    <main>
+        <h1>
+            Redux
+        </h1>
+        <section class="product-venta-grid">
+            <div class="img-product-venta">
+                <img src="./img/4.jpg" alt="Imagen venta">
+            </div>
+            <div class="detalles-venta">
+                <p>Maecenas consectetur ultricies mi vel venenatis. Curabitur risus tellus, congue non tellus at, semper dapibus turpis. Duis pellentesque, risus sit amet placerat porttitor, tortor augue volutpat ante, non dignissim odio ligula at arcu.</p>
+                <form class="form-class" action="">
+                    <select class="campo-form">
+                        <option disabled selected>-- Seleccionar Talla --</option>
+                        <option>S</option>
+                        <option>L</option>
+                        <option>M</option>
+                        <option>XL</option>
+                        <option>XXL</option>
+                        <option>XXXL</option>
+                    </select>
+                    <input class="cant-form" type="number" placeholder="Cantidad (Maximo 20)" min="1" max="20">
+                    <input class="form__submit" type="submit" value="Agregar al Carrito">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <p class="footer-text">StoreFrontend</p>
+    </footer>
+</body>
+</html>
